@@ -2,6 +2,6 @@
 git add --all
 git status
 printf "Your changes: "
-read INPUT
+read -e INPUT
 git commit -m "$INPUT"
 git push
